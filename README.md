@@ -1,6 +1,6 @@
 # QEMU for AArch64 on AlmaLinux 9
 
-This repository contains a pre-built version of QEMU 9.1.1 for emulating AArch64 (ARM64) architecture on AlmaLinux 9. This binary has been compiled and tested in an AlmaLinux 9 (aarch64) environment.
+This repository contains a pre-built version of QEMU 9.1.1 for emulating AArch64 (ARM64) architecture on AlmaLinux 9. This binary has been compiled and tested in an AlmaLinux 9 (x86_64) environment using WSL.
 
 ## Features
 
