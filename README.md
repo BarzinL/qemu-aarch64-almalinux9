@@ -19,19 +19,25 @@ To use the provided `qemu-system-aarch64` binary on your system, follow these st
    cd qemu-aarch64-almalinux9
    ```
 
-2. Make the binary executable:
+2. Extract the compressed binary:
+
+  ```bash
+  tar -xvJf qemu-system-aarch64.tar.xz
+  ```
+
+3. Make the binary executable:
 
   ```bash
   chmod +x qemu-system-aarch64
   ```
 
-3. Move the binary to a directpry om ypir `$PATH` (e.g., `/usr/local/bin`):
+4. Move the binary to a directpry om ypir `$PATH` (e.g., `/usr/local/bin`):
 
   ```bash
   sudo mv qemu-system-aarch64 /usr/local/bin/
   ```
 
-4. Test that the binary is working by checking its version:
+5. Test that the binary is working by checking its version:
 
    ```bash
    qemu-system-aarch64 --version
