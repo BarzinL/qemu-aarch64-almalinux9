@@ -31,7 +31,7 @@ To use the provided `qemu-system-aarch64` binary on your system, follow these st
   chmod +x qemu-system-aarch64
   ```
 
-4. Move the binary to a directpry om ypir `$PATH` (e.g., `/usr/local/bin`):
+4. Move the binary to a directory in your `$PATH` (e.g., `/usr/local/bin`):
 
   ```bash
   sudo mv qemu-system-aarch64 /usr/local/bin/
